@@ -78,25 +78,47 @@ html {
   font-size: 2em;
 }
 .main-bottom {
-  background-color: brown;
+  background-color: white;
 }
 .side {
-  background-color: aqua;
+  background-image: url(../img/img-1.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   float: left;
   height: 200px;
   width: 25%;
   margin-top: 1em;
 }
 .center {
-  background-color: black;
+  background-image: url(../img/banner-2.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
   float: left;
   height: 200px;
   width: 46%;
   margin: 2%;
 }
 
+.side2 {
+  background-image: url(../img/img-3.jpg);
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  float: left;
+  height: 200px;
+  width: 25%;
+  margin-top: 1em;
+}
+
 .footer {
-  height: 30px;
-  background-color: blue;
+  text-align: center;
   margin-top: -10px;
+}
+.footer .heart {
+  color: red;
 }
